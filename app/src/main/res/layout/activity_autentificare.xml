@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.stiumate.Autentificare">
+
+    <TextView
+        android:id="@+id/autentificare_eroare"
+        style="@style/TextView"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/autentificare_email"
+        style="@style/EditText"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/autentificare_parola"
+        style="@style/EditText"
+        android:layout_marginTop="10dp"
+        android:hint="@string/parola"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/autentificare_login"
+        style="@style/Buton"
+        android:layout_marginTop="10dp"
+        android:text="@string/autentificare" />
+
+    <Button
+        android:id="@+id/autentificare_resetare_parola"
+        style="@style/Buton_text"
+        android:layout_marginTop="20dp"
+        android:text="@string/parolauitata" />
+
+    <Button
+        android:id="@+id/autentificare_catre_inregistrare"
+        style="@style/Buton_text"
+        android:layout_marginTop="20dp"
+        android:text="@string/înregistrare" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/intrebari_text"
+        style="@style/TextView" />
+
+    <TextView
+        android:id="@+id/intrebari_indiciu1"
+        style="@style/TextView" />
+
+    <TextView
+        android:id="@+id/intrebari_indiciu2"
+        style="@style/TextView" />
+
+    <TextView
+        android:id="@+id/intrebari_raspuns"
+        style="@style/TextView" />
+
+</LinearLayout>

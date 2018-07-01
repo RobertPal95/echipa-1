@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.android.stiumate.Feedback">
+
+    <TextView
+        android:id="@+id/inregistrare_feedback"
+        style="@style/TextView"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/feedback_inregistrare" />
+
+    <EditText
+        android:id="@+id/feedback_parere"
+        style="@style/EditText"
+        android:layout_marginTop="10dp"
+        android:hint="@string/introdu_parere" />
+
+    <Button
+        android:id="@+id/feedback_trimite"
+        style="@style/Buton"
+        android:layout_marginTop="10dp"
+        android:text="@string/trimite" />
+
+    <ListView
+        android:id="@+id/feedback_lista"
+        style="@style/lista"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

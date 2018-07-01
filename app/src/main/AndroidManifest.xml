@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.stiumate">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/favicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/favicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PagPrinc">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Inregistrare"
+            android:label="Înregistrare cont"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".Lectie"
+            android:label="Să aflăm despre lecție" />
+        <activity
+            android:name=".ProfilUtilizator"
+            android:label="Profilul dumneavoastră" />
+        <activity
+            android:name=".TopScoruri"
+            android:label="Cele mai bune punctaje" />
+        <activity
+            android:name=".Autentificare"
+            android:label="Intrați în cont"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".Ghid"
+            android:label="Cum funcționează aplicația?" />
+        <activity
+            android:name=".Invata"
+            android:label="Ce lecție doriți?" />
+        <activity
+            android:name=".ResetareParola"
+            android:label="Ați uitat parola?"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".Exerseaza"
+            android:label="Exersează" />
+        <activity
+            android:name=".Feedback"
+            android:label="Vă place aplicația?" />
+        <activity
+            android:name=".ProfilSetari"
+            android:label="Setările contului" />
+        <activity android:name=".ProfesorAlegere" />
+        <activity
+            android:name=".AfisareScor"
+            android:label="Să aflăm punctajul" />
+        <activity
+            android:name=".ProfesorVerificare"
+            android:label="Verificare parolă"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".ProfesorIntrebari" />
+        <activity
+            android:name=".ProfesorLectii"
+            android:label="Modificați o lecție" />
+        <activity
+            android:name=".ProfesorAdauga"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+    </application>
+
+</manifest>

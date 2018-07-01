@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pag_principala"
+        android:title="@string/revenire_pag_principala"
+        android:orderInCategory="100" />
+
+    <item
+        android:id="@+id/setari"
+        android:title="@string/setari"
+        android:orderInCategory="101" />
+
+    <item
+        android:id="@+id/delogare"
+        android:title="@string/iesi"
+        android:orderInCategory="102" />
+
+</menu>

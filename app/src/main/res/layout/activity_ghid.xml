@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_ghid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true"
+    tools:context="com.example.android.stiumate.Ghid">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:id="@+id/ghid_mesaj_bun_venit"
+            style="@style/TextView"
+            android:layout_marginTop="10dp"
+            android:text="@string/mesajb"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ghid_instructiune1"
+            style="@style/TextView"
+            android:layout_below="@id/ghid_mesaj_bun_venit"
+            android:text="@string/instructiune1"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ghid_instructiune2"
+            style="@style/TextView"
+            android:layout_below="@id/ghid_instructiune1"
+            android:text="@string/instructiune2"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ghid_instructiune3"
+            style="@style/TextView"
+            android:layout_below="@id/ghid_instructiune2"
+            android:layout_marginStart="10dp"
+            android:text="@string/instructiune3"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ghid_instructiune4"
+            style="@style/TextView"
+            android:layout_below="@id/ghid_instructiune3"
+            android:text="@string/instructiune4"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ghid_instructiune5"
+            style="@style/TextView"
+            android:layout_below="@id/ghid_instructiune4"
+            android:layout_marginStart="10dp"
+            android:text="@string/instructiune5"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/obtinerea_scorurilor"
+            style="@style/TextView"
+            android:layout_below="@id/ghid_instructiune5"
+            android:layout_marginStart="10dp"
+            android:text="@string/instructiune6"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/obtinerea_medaliilor"
+            style="@style/TextView"
+            android:layout_below="@id/obtinerea_scorurilor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/instructiune7"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

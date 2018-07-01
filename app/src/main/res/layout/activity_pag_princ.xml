@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.stiumate.PagPrinc">
+
+    <ImageView
+        android:id="@+id/pag_princ_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/imagine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/butonInvata"
+            style="@style/Buton"
+            android:layout_marginEnd="10dp"
+            android:text="@string/invata" />
+
+        <Button
+            android:id="@+id/butonAutentificare"
+            style="@style/Buton"
+            android:text="@string/autentificare" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/butonScoruri"
+            style="@style/Buton"
+            android:layout_marginEnd="10dp"
+            android:text="@string/top_scoruri" />
+
+        <Button
+            android:id="@+id/butonFeedBack"
+            style="@style/Buton"
+            android:text="@string/feedback" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/butonGhid"
+            style="@style/Buton"
+            android:layout_marginEnd="10dp"
+            android:text="@string/ghid" />
+
+        <Button
+            android:id="@+id/butonIesire"
+            style="@style/Buton"
+            android:text="@string/iesire" />
+
+    </LinearLayout>
+
+</LinearLayout>

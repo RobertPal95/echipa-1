@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.stiumate.Inregistrare">
+
+    <EditText
+        android:id="@+id/inregistrare_email"
+        style="@style/EditText"
+        android:layout_marginTop="50dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/inregistrare_nume"
+        style="@style/EditText"
+        android:layout_marginTop="10dp"
+        android:hint="@string/nume_utilizator" />
+
+    <EditText
+        android:id="@+id/inregistrare_parola"
+        style="@style/EditText"
+        android:layout_marginTop="10dp"
+        android:hint="@string/parola"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/inregistrare_inregistreaza"
+        style="@style/Buton"
+        android:layout_marginTop="20dp"
+        android:text="@string/inregistrare" />
+
+    <Button
+        android:id="@+id/inregistrare_catre_login"
+        style="@style/Buton_text"
+        android:layout_marginTop="30dp"
+        android:text="@string/inapoi"
+        android:textAllCaps="false" />
+
+</LinearLayout>

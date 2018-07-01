@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "358110958740",
+    "firebase_url": "https://stiumate-3dda4.firebaseio.com",
+    "project_id": "stiumate-3dda4",
+    "storage_bucket": "stiumate-3dda4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358110958740:android:b344d40fc2f38227",
+        "android_client_info": {
+          "package_name": "com.example.android.stiumate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358110958740-6i07fe8h07m423707blm8m8fomculiqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.stiumate",
+            "certificate_hash": "a0a213ad183924cf30a13c1b46aaba2bab4820e4"
+          }
+        },
+        {
+          "client_id": "358110958740-dbfabnnqias4jl6o4nel9ln2p3e4sikk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.stiumate",
+            "certificate_hash": "a656b3069acdaaccefc322dccc25e87e16feb991"
+          }
+        },
+        {
+          "client_id": "358110958740-14pifo04dbjobg34c0v42uhdcdbj69s9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdbe-5IuN4O5TaA8mjWvX3PllTtt2ZDyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358110958740-14pifo04dbjobg34c0v42uhdcdbj69s9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

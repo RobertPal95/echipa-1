@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.stiumate.ProfesorAlegere">
+
+    <TextView
+        style="@style/TextView"
+        android:text="@string/alegeti_lectie" />
+
+    <Spinner
+        android:id="@+id/alege_lectie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#b3e0ff"
+        android:popupBackground="#b3e0ff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/modifica_intrebari"
+            style="@style/Buton"
+            android:layout_marginEnd="10dp"
+            android:text="@string/meniu_intrebari" />
+
+        <Button
+            android:id="@+id/editeaza_lectie"
+            style="@style/Buton"
+            android:text="@string/modifica_lectie" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/publica_lectie"
+            style="@style/Buton"
+            android:layout_marginEnd="10dp"
+            android:text="@string/publica_lectia" />
+
+        <Button
+            android:id="@+id/sterge_lectie"
+            style="@style/Buton"
+            android:text="@string/sterge_lectia" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextView"
+        android:layout_marginTop="50dp"
+        android:text="@string/adauga_modifica" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/adauga_lectie"
+            style="@style/Buton"
+            android:layout_marginEnd="10dp"
+            android:text="@string/adauga_lectie" />
+
+        <Button
+            android:id="@+id/lectii_existente"
+            style="@style/Buton"
+            android:layout_marginEnd="10dp"
+            android:text="@string/lectii_existente" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profAlegere_pagPrinc"
+        style="@style/Buton"
+        android:layout_marginTop="50dp"
+        android:text="@string/pagina_principala" />
+
+</LinearLayout>

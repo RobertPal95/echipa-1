@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.stiumate.ProfilSetari">
+
+    <EditText
+        android:id="@+id/setari_schimba_nume"
+        style="@style/EditText"
+        android:layout_marginTop="20dp"
+        android:hint="@string/nume_utilizator_nou" />
+
+    <Button
+        android:id="@+id/setari_confirma_nume"
+        style="@style/Buton"
+        android:layout_marginTop="10dp"
+        android:text="@string/schimba_nume" />
+
+    <EditText
+        android:id="@+id/setari_schimba_parola"
+        style="@style/EditText"
+        android:layout_marginTop="30dp"
+        android:hint="@string/parola_noua"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/setari_confirma_parola"
+        style="@style/Buton"
+        android:layout_marginTop="10dp"
+        android:text="@string/schimba_parola" />
+
+    <EditText
+        android:id="@+id/setari_schimba_email"
+        style="@style/EditText"
+        android:layout_marginTop="30dp"
+        android:hint="@string/email_nou"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/setari_confirma_email"
+        style="@style/Buton"
+        android:layout_marginTop="10dp"
+        android:text="@string/schimba_email" />
+
+    <Button
+        android:id="@+id/setari_sterge_cont"
+        style="@style/Buton"
+        android:layout_marginTop="50dp"
+        android:text="@string/sterge_cont" />
+
+</LinearLayout>

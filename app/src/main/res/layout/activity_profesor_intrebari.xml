@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ProfesorIntrebari">
+
+    <EditText
+        android:id="@+id/editare_intrebare"
+        style="@style/EditText"
+        android:layout_marginTop="10dp"
+        android:hint="@string/intrebare" />
+
+    <EditText
+        android:id="@+id/editare_indiciu1"
+        style="@style/EditText"
+        android:hint="@string/indiciu1" />
+
+    <EditText
+        android:id="@+id/editare_indiciu2"
+        style="@style/EditText"
+        android:hint="@string/indiciu2" />
+
+    <EditText
+        android:id="@+id/editare_raspuns"
+        style="@style/EditText"
+        android:hint="@string/raspuns" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/editare_adauga"
+            style="@style/buton_mic"
+            android:layout_marginEnd="10dp"
+            android:text="@string/adauga" />
+
+        <Button
+            android:id="@+id/editare_modifica"
+            style="@style/buton_mic"
+            android:layout_marginEnd="10dp"
+            android:text="@string/modifica" />
+
+        <Button
+            android:id="@+id/editare_sterge"
+            style="@style/buton_mic"
+            android:layout_marginEnd="10dp"
+            android:text="@string/sterge" />
+
+        <Button
+            android:id="@+id/editare_goleste"
+            style="@style/buton_mic"
+            android:text="@string/goleste" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/intrebari_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="2dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true" />
+
+</LinearLayout>

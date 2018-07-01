@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profil_utilizator"
+        android:title="@string/profil_utilizator"
+        android:orderInCategory="100" />
+
+    <item
+        android:id="@+id/pag_principala"
+        android:title="@string/revenire_pag_principala"
+        android:orderInCategory="101" />
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/catre_autentificare"
+        android:orderInCategory="100"
+        android:title="@string/autentificare" />
+
+    <item
+        android:id="@+id/catre_feedback"
+        android:orderInCategory="101"
+        android:title="@string/feedback" />
+
+    <item
+        android:id="@+id/catre_topscoruri"
+        android:orderInCategory="102"
+        android:title="@string/top_scoruri" />
+
+
+</menu>

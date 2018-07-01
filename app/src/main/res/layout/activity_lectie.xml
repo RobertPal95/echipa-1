@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.stiumate.Lectie">
+
+    <TextView
+        android:id="@+id/lectie_teorie"
+        style="@style/TextView" />
+
+    <TextView
+        android:id="@+id/lectie_cerinta"
+        style="@style/TextView"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/lectie_but_exerseaza"
+        style="@style/Buton"
+        android:layout_marginTop="20dp"
+        android:text="@string/exerseaza" />
+
+</LinearLayout>
